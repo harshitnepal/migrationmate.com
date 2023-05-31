@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Migration Agency</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Services</h1>
+    </section>
+
+    <!--Course-->
+    <section class="course">
+      <h1>Services We Offer</h1>
+      <p>Right at your finger tips.</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Permanent Residency</h3>
+          <p>
+            If you are applying for permanent residency such as 491, 190, 189in
+            Australia this is the perfect place for you. We will help you with
+            your EOI and every process.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Temporary Residency</h3>
+          <p>
+            If you are also applying for temporary residency 485 in Australia
+            this is the perfect place for you because we provide services in
+            very affordable prices.
+          </p>
+        </div>
+
+        <div class="course-col">
+          <h3>Visitor Visa</h3>
+          <p>
+            Many of us want to bring out our family during holidays and
+            graduation ceremony. We will affordably help you for that.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--------Facilities------>
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>Facilities we provide virtually.</p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/aus.jpg" />
+          <h3>Australia Based Agency</h3>
+          <p>
+            We are based in Australia and understands the ulture of Austrlia.
+            And provide in depth help regarding the migration services.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cheap.jpg" />
+          <h3>Cheapest Ever Service</h3>
+          <p>
+            Without a doubt we provide you the most affordable services. Becuase
+            who would provide services in half-price.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/1t1.jpg" />
+          <h3>Free 1 to 1 Consultation</h3>
+          <p>
+            We do not charge for any face to face consultation. Our face to face
+            consultation is done virtually which helps with busy schedule.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-----footer-->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Founded by a young entrepreneur to provide low cost services to
+        students.
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+
+        <i class="fab fa-instagram"></i>
+
+        <i class="fab fa-tiktok"></i>
+      </div>
+    </section>
+
+    <!--------JavaScript for Toggle Menu------->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
